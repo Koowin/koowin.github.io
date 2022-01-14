@@ -1,3 +1,8 @@
+---
+layout: single
+title:  "Growth Study Week 4"
+---
+
 # 📚 Growth Study: 22.01.15.토
 
 ##  :scroll: 목차

@@ -2,6 +2,7 @@
 title: "Java 프로그래밍"
 layout: archive
 permalink: categories/java
+sidebar_main: true
 ---
 
 {% assign posts = site.categories.java %}

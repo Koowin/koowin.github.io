@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Koowin's Study Note"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "In Wook Jung"
+name                     : "Jung, In-Wook"
 description              : "공부한 것을 기록하는 블로그"
 url                      : "https://koowin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -102,37 +102,25 @@ analytics:
 
 # Site Author
 author:
-  name             : "In Wook Jung"
+  name             : "Jung, In-Wook"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "biobiobio"
-  location         : "Somewhere, Korea"
-  email            : "koowin42@gmail.com"
+  location         : "Bundang-gu, Korea"
   links:
-    - label: "Github"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:koowin42@gmail.com"
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/Koowin"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/Koowin"
+
 
 
 # Reading Files

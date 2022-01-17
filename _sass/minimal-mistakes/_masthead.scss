@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-  background-color: $footer-background-color;
+  // background-color: $footer-background-color;
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -51,7 +51,7 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
-  color: #fff;
+  // color: #fff;
   // z-index: 20;
 }
 

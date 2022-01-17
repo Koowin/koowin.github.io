@@ -3,6 +3,7 @@ title:  "Growth Study: 22.01.15.토"
 
 toc: true
 toc_label: "Contents"
+toc_icon: "bars"
 toc_sticky: true
 
 last_modified_at: 2022-01-17

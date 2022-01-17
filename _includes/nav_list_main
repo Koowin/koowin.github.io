@@ -27,7 +27,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Programming Language</span>
+        <span class="nav__sub-title">Language & Tools</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "java" %}
@@ -35,7 +35,22 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Coding Test</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "programmers" %}
+                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">일상</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "study" %}
+                        <li><a href="/categories/study" class="">스터디 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "review" %}

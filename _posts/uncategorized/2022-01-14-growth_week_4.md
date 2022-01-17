@@ -6,7 +6,11 @@ toc_label: "Contents"
 toc_icon: "bars"
 toc_sticky: true
 
-last_modified_at: 2022-01-17
+categories:
+  - study
+
+date: 2022-01-14
+last_modified_at: 2022-01-14
 ---
 
 

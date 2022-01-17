@@ -1,6 +1,11 @@
 ---
-layout: single
 title:  "Growth Study Week 3"
+
+categories:
+  - study
+
+date: 2022-01-07
+last_modified_at: 2022-01-07
 ---
 
 

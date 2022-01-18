@@ -45,14 +45,14 @@ class Solution {
         for (String message : record) {
             String[] arr = message.split(" ");
             switch (arr[0].charAt(0)) {
-                case 'E':
+                case 'E':	//"Enter"
                     msgLogs.add(new MsgLog(true, arr[1]));
                     nameOfUid.put(arr[1], arr[2]);
                     break;
-                case 'L':
+                case 'L':	//"Leave"
                     msgLogs.add(new MsgLog(false, arr[1]));
                     break;
-                default:
+                default:	//"Change"
                     nameOfUid.put(arr[1], arr[2]);
                     break;
             }
@@ -211,7 +211,7 @@ public boolean equals(Object obj){
 
 2. 📖신용권, 『혼자 공부하는 자바』
 
-### HashMap 관련 코테 문제들
+### 관련 코테 문제들
 
 - 프로그래머스: 완주하지 못한 선수 (Lv.1) [[링크]](https://programmers.co.kr/learn/courses/30/lessons/42576)
 - 프로그래머스: 오픈채팅방 (Lv.2) [[링크]](https://programmers.co.kr/learn/courses/30/lessons/42888)

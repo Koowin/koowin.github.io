@@ -28,7 +28,7 @@ last_modified_at: 2022-01-18
  Collection의 계층 구조는 다음과 같습니다.
 
 
-![Hierarchy of Java Collection framework](C:\Code\koowin.github.io\assets\images\java-collection-hierarchy.png){: .align-center, width="100%", height="100%"}
+![java-collection](../../assets/images/2022-01-18-java_collection/image-20220118175233977.png)
 
 이미지 출처: [https://www.javatpoint.com/collections-in-java](https://www.javatpoint.com/collections-in-java)
 

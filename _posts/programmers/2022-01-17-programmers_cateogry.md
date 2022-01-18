@@ -1,6 +1,11 @@
 ---
 title: "Programmers Category"
 
+toc: true
+toc_label: "Contents"
+toc_icon: "bars"
+toc_sticky: true
+
 categories:
   - programmers
 

@@ -2,6 +2,7 @@
 title: "운동"
 layout: archive
 permalink: categories/workout
+author_profile: true
 sidebar_main: true
 ---
 

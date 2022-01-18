@@ -2,6 +2,7 @@
 title: "도서 리뷰"
 layout: archive
 permalink: categories/review
+author_profile: true
 sidebar_main: true
 ---
 

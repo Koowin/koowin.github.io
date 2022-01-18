@@ -2,6 +2,7 @@
 title: "스터디"
 layout: archive
 permalink: categories/study
+author_profile: true
 sidebar_main: true
 ---
 

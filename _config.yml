@@ -24,8 +24,8 @@ description              : "공부한 것을 기록하는 블로그"
 url                      : "https://koowin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Koowin/koowin.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/Profile/logo.png"
+logo                     : "/assets/images/Profile/logo.png" # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200

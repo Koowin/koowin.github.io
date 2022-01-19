@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Jung, In-Wook"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "안녕하세요, 반갑습니다."
+  bio              : "제가 보기 위해 공부한 것을 기록하는 블로그입니다."
   location         : "Bundang-gu, Korea"
   links:
     - label: "Email"

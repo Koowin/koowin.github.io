@@ -186,10 +186,12 @@ hashMap.put(new Student(12, "철수"), 95);		//철수의 점수 업데이트
 이러한 문제점을 해결하기 위해 equals() 메서드와 hashCode() 메서드를 재정의 할 수 있습니다.
 
 ```java
+@Override
 public int hashCode(){
     return sno + name.hashCode();
 }
 
+@Override
 public boolean equals(Object obj){
     if(obj instanceof Student){
         Student student = (Student) obj;

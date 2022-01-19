@@ -113,7 +113,7 @@ author:
     - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Koowin"
-    - label:  "Blog Intro"
+    - label: "Blog Intro"
       icon: "fas fa-user"
       url: "https://koowin.github.io/blog-intro/"
 

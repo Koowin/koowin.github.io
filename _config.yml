@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Jung, In-Wook"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "제가 보기 위해 공부한 것을 기록하는 블로그입니다."
+  bio              : "공부한 것을 기록하는 블로그입니다."
   location         : "Bundang-gu, Korea"
   links:
     - label: "Email"
@@ -113,6 +113,8 @@ author:
     - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Koowin"
+    - label: "Blog Intro"
+      url: "https://koowin.github.io/blog-intro/"
 
 # Site Footer
 footer:

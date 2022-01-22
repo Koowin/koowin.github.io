@@ -85,11 +85,74 @@ public class Solution {
 
 ## 발표 자료
 
+### <span style="color:#ffd101">네트워크 계층</span>
+
+<img src="../../assets/images/2022-01-21-growth_week_5/image-20220121164653721.png" alt="image-20220121164653721"  />
+
+이미지 출처: James F. Kurose, Keith W.Ross, 『컴퓨터 네트워킹 하향식 접근』, 45p
+
 <br/>
 
-## 출처
+### <span style="color:#ffd101">HTTP</span>
 
-📘James F. Kurose, Keith W.Ross, 『컴퓨터 네트워킹 하향식 접근』
+#### TCP
+
+- 소켓을 통해 통신
+- 3-way-handshaking
+
+#### Connectionless, Stateless
+
+- 연결 확립 -> 요청, 응답 -> 연결 종료
+- 연결이 끊어지면 이전 상태를 저장하지 않음.
+- 서버가 클라이언트의 상태를 저장할 방법 필요.
+
+<br/>
+
+### <span style="color:#ffd101">쿠키 vs 세션</span>
+
+#### 쿠키
+
+- Connectionless, Stateless를 해결하기 위해 존재
+- 클라이언트 로컬에 저장되는 `key, value`
+- HTTP 응답에서 Set-Cookie 헤더를 통해 생성
+- HTTP 요청 시 헤더에 쿠키 담아 보냄
+
+#### 세션 쿠키, 지속 쿠키
+
+- 세션 쿠키
+  - 메모리에 있는 동안 유효 (브라우저 메모리)
+  - 만료 날짜/시간 없음
+- 지속 쿠키
+  - 파일로 저장
+  - 만료 날짜/시간 있음
+
+#### 세션
+
+- Connectionless, Stateless를 해결하기 위해 존재
+- 서버에서 저장하는 클라이언트 ID
+- 필요에 따라 클라이언트에게 세션 ID 제공 (클라이언트는 이를 쿠키로 저장)
+
+#### 차이점
+
+- 저장 위치
+- 보안
+
+<br/>
+
+### <span style="color:#ffd101">프록시, 웹 캐싱</span>
+
+![image-20220122103117496](../../assets/images/2022-01-21-growth_week_5/image-20220122103117496.png)
+
+![image-20220122115238527](../../assets/images/2022-01-21-growth_week_5/image-20220122115238527.png)
+
+이미지 출처: James F. Kurose, Keith W.Ross, 『컴퓨터 네트워킹 하향식 접근』, 101~103p
+
+<br/>
+
+## 참고한 문서들
+
+- 📘James F. Kurose, Keith W.Ross, 『컴퓨터 네트워킹 하향식 접근』
+- 📄[https://jeong-pro.tistory.com/80](https://jeong-pro.tistory.com/80)
 
 <br/>
 
@@ -97,7 +160,7 @@ public class Solution {
 
 - [Network Layer](https://koowin.github.io/network/network_layer/)
 - [네트워크 애플리케이션의 원리](https://koowin.github.io/network/application_layer_principle/)
-- 
+- [웹, HTTP](https://koowin.github.io/network/application_layer_http/)
 
 <br/>
 

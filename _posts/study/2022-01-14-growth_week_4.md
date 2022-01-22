@@ -13,7 +13,7 @@ date: 2022-01-14
 last_modified_at: 2022-01-14
 ---
 
-# 🎯 공통 문제
+# 공통 문제
 
 ## 프로그래머스: 오픈채팅방 (Lv.2) [[링크]](https://programmers.co.kr/learn/courses/30/lessons/42888)
 
@@ -78,9 +78,9 @@ class Solution {
 
 <br/><br/>
 
-# 📝 개인 발표
+# 🎙️개인 발표
 
-[Java - HashMap](https://koowin.github.io/categories/java)
+[Java - HashMap](https://koowin.github.io/java/java_hashmap/)
 
 포스트를 옮겼습니다. 위 링크를 참조해주세요.
 

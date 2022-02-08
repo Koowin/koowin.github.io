@@ -104,7 +104,7 @@ public class Solution {
 
 - 연결 확립 -> 요청, 응답 -> 연결 종료
 - 연결이 끊어지면 이전 상태를 저장하지 않음.
-- 서버가 클라이언트의 상태를 저장할 방법 필요.
+- 서버가 클라이언트의 상태를 저장할 방법 필요.
 
 <br/>
 
@@ -168,5 +168,9 @@ public class Solution {
 
 # 스터디 내용 정리
 
-
+- Rest API
+- OS Scheduling
+- Java String (String pool, 불변)
+- HTTP 버전
+- 포워드 프록시, 리버스 프록시
 

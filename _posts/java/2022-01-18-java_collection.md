@@ -25,7 +25,7 @@ last_modified_at: 2022-01-18
 
  Collection은 자바에서 제공하는 프레임워크로, 객체들을 저장하는 다양한 클래스와 이들의 사용 방법을 정의한 인터페이스들을 제공합니다.
 
-
+<br><br>
 
 
 # Hierarchy of Collection framework
@@ -37,36 +37,27 @@ last_modified_at: 2022-01-18
 
 이미지 출처: [https://www.javatpoint.com/collections-in-java](https://www.javatpoint.com/collections-in-java)
 
+<br><br>
 
+# Methods of Collection interface
 
-# Collection 인터페이스의 메서드
+많은 메서드들이 있지만, 몇 개는 생략하고 코딩테스트에서 주로 활용하는 메서드만 정리하였습니다.
 
-| 메서드               | 설명 |
-| -------------------- | ---- |
-| public boolean (E e) |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
-|                      |      |
+| 메서드                                           | 설명                                      |
+| ------------------------------------------------ | ----------------------------------------- |
+| public boolean add(E e)                          | 원소 추가                                 |
+| public boolean addAll(Collection<? extends E> c) | c에 있는 모든 원소 추가                   |
+| public boolean remove(Object element)            | 특정 원소 제거                            |
+| public boolean removeAll(Collection <?> c)       | c에 있는 원소들과 일치하는 모든 원소 제거 |
+| public int size()                                | 원소의 수 반환                            |
+| public void clear()                              | 모든 원소 삭제                            |
+| public Iterator iterator()                       | iterator 반환                             |
+| public Object[] toArray()                        | 배열로 반환                               |
+| public \<T> T[] toArray(T[] a)                   | T의 배열로 반환                           |
+| public boolean isEmpty()                         | 배열이 비어있는지를 반환                  |
 
-
-
-
+<br><br>
 
 # 참고한 문서들
 
-- [https://www.javatpoint.com/collections-in-java](https://www.javatpoint.com/collections-in-java)
+- 📄 [https://www.javatpoint.com/collections-in-java](https://www.javatpoint.com/collections-in-java)

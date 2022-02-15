@@ -1,5 +1,5 @@
 ---
-title:  "Collections"
+title:  "Collection"
 
 toc: true
 toc_label: "Contents"
@@ -36,20 +36,20 @@ Java Collection, List, Queue, Deque, Set, SortedSet interface 를 참고하여 �
 
 더 많은 메서드들이 있지만, 몇 개는 생략하고 코딩테스트에서 주로 활용하는 메서드만 정리하였습니다.
 
-| 메서드                                           | 설명                                      |
-| ------------------------------------------------ | ----------------------------------------- |
-| public int size()                                | 원소의 수 반환                            |
-| public boolean isEmpty()                         | 배열이 비어있는지를 반환                  |
-| public boolean contains(Object o)                | 해당 원소가 있는지를 반환                 |
-| public Iterator iterator()                       | iterator 반환                             |
-| public Object[] toArray()                        | 배열로 반환                               |
-| public \<T> T[] toArray(T[] a)                   | T의 배열로 반환                           |
-| public boolean add(E e)                          | 원소 추가                                 |
-| public boolean remove(Object element)            | 특정 원소 제거                            |
-| public boolean addAll(Collection<? extends E> c) | c에 있는 모든 원소 추가                   |
-| public boolean removeAll(Collection <?> c)       | c에 있는 원소들과 일치하는 모든 원소 제거 |
-| public boolean retainAll(Collection <?> c)       | c에 있는 원소들을 제외한 모든 원소 제거   |
-| public void clear()                              | 모든 원소 삭제                            |
+| Method                                    | Description                               |
+| ----------------------------------------- | ----------------------------------------- |
+| int size()                                | 원소의 수 반환                            |
+| boolean isEmpty()                         | 배열이 비어있는지를 반환                  |
+| boolean contains(Object o)                | 해당 원소가 있는지를 반환                 |
+| Iterator iterator()                       | iterator 반환                             |
+| Object[] toArray()                        | 배열로 반환                               |
+| \<T> T[] toArray(T[] a)                   | T의 배열로 반환                           |
+| boolean add(E e)                          | 원소 추가                                 |
+| boolean remove(Object element)            | 특정 원소 제거                            |
+| boolean addAll(Collection<? extends E> c) | c에 있는 모든 원소 추가                   |
+| boolean removeAll(Collection <?> c)       | c에 있는 원소들과 일치하는 모든 원소 제거 |
+| boolean retainAll(Collection <?> c)       | c에 있는 원소들을 제외한 모든 원소 제거   |
+| void clear()                              | 모든 원소 삭제                            |
 
 <br><br>
 
@@ -62,4 +62,5 @@ Java Collection, List, Queue, Deque, Set, SortedSet interface 를 참고하여 �
 
 # 참고한 문서들
 
+- java.util 패키지 내 Collection, List, Queue, Deque, Set, SortedSet 자바 파일들
 - 📄 [https://www.javatpoint.com/collections-in-java](https://www.javatpoint.com/collections-in-java)

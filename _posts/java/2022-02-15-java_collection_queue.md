@@ -79,6 +79,7 @@ java.util 패키지 내의 Stack.java 파일의 설명을 살펴보니,
 * [Collection](../java_collection)
 * [Collection - List](../java_collection_list)
 * [Collection - Set](../java_collection_set)
+* [Collection - PriorityQueue](../java_collection_priorityqueue)
 
 <br><br>
 

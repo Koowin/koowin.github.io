@@ -101,7 +101,22 @@ class PriorityQueueTest {
 
 <br><br>
 
+# 추가 - Heap 자료구조
+
+따로 포스팅을 하기엔 양이 적어 이 포스트에 추가로 Heap 자료구조에서 원소 삽입과 삭제 방법에 대한 이미지를 간단하게 첨부하겠습니다.
+
+![PriorityQueue_InsertAndDelete](../../assets/images/2022-02-14-java_priorityQueue/PriorityQueue_InsertAndDelete.jpg)
+
+출처 : 로버트 세지웍, 케빈 웨인, 『알고리즘 개정 4판』, 317p
+
+<br>
+
+실제 PriorityQueue.java 내에서는 swim up 과 sink down 을 siftUp 과 siftDown 메소드로 구현하고 있습니다.
+
+<br><br>
+
 # 참고한 문서
 
 * 📄 [https://www.javatpoint.com/java-priorityqueue](https://www.javatpoint.com/java-priorityqueue)
 * 📄 [https://includestdio.tistory.com/35](https://includestdio.tistory.com/35)
+* 📘 로버트 세지웍, 케빈 웨인, 『알고리즘 개정 4판』

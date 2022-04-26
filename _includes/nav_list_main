@@ -15,6 +15,13 @@
         <span class="nav__sub-title">CS</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "ds_al" %}
+                        <li><a href="/categories/ds_al" class="">DataStructure & Algorithm ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>        
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "os" %}
                         <li><a href="/categories/os" class="">OS ({{category[1].size}})</a></li>
                     {% endif %}
@@ -39,6 +46,13 @@
                 {% for category in site.categories %}
                     {% if category[0] == "java" %}
                         <li><a href="/categories/java" class="">Java ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "spring" %}
+                        <li><a href="/categories/spring" class="">Spring ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

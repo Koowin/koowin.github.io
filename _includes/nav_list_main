@@ -9,7 +9,7 @@
   <ul class="nav__items" id="category_tag_menu">
       <!--전체 글 수-->
       <li>
-            📄 <span style="font-family:'Ridi';">Total Posts: {{sum}} </style>
+            📄 <span style="font-family:'Pretenard';">Total Posts: {{sum}} </style>
       </li>
       <li>
         <span class="nav__sub-title">CS</span>
@@ -21,7 +21,7 @@
                 {% endfor %}
             </ul>        
             <ul>
-                {% for category in site.categories %}
+                {% for category in site.categories %}x 
                     {% if category[0] == "os" %}
                         <li><a href="/categories/os" class="">OS ({{category[1].size}})</a></li>
                     {% endif %}
@@ -65,6 +65,13 @@
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">일상</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "life" %}
+                        <li><a href="/categories/life" class="">스터디 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "study" %}

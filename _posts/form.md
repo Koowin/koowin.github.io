@@ -10,7 +10,7 @@ categories:
   - 
 
 date: 2022-
-last_modified_at: 2022- 
+last_modified_at: 2022-
 ---
 
 # 자주 쓰는 것들

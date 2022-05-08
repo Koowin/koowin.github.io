@@ -93,7 +93,7 @@ SQL Injection 공격을 다 막기 위해서는 #, =, <, >, ', " 등을 모두 �
 
 물어보거나 에러를 유발시켜서 DB명, Table명, Column명을 알아내어 새로운 SQL문을 만들어내는 것.
 
-### 1단계) DB 정보 알아내기
+**1단계) DB 정보 알아내기**
 
 <span style="color:orange">database()</span> : DB명 조회 함수
 
@@ -105,7 +105,7 @@ SQL Injection 공격을 다 막기 위해서는 #, =, <, >, ', " 등을 모두 �
 
 <br/>
 
-### 2단계) Table명 알아내기
+**2단계) Table명 알아내기**
 
 information_schema라는 DB에 저장되어 있음.
 
@@ -113,13 +113,13 @@ information_schema라는 DB에 저장되어 있음.
 
 <br/>
 
-### 3단계) Column명 알아내기
+**3단계) Column명 알아내기**
 
 ' union select column_name, null from information_schema.columns WHERE table_name='users' #
 
 <br/>
 
-### 4단계) 원하는 정보 알아내기
+**4단계) 원하는 정보 알아내기**
 
 ' union select user, password from users #
 
@@ -149,19 +149,19 @@ e.g. admin의 암호
 
 ## 인증의 종류
 
-1) 지식 기반
+1) **지식 기반**
 
    e.g. 비밀번호, 암구어, 미리 정해놓은 질의 응답, 패턴
 
-2) 소유 기반
+2) **소유 기반**
 
    e.g. 열쇠, Key Pair, OTP, 공동인증서, 신용카드 휴대폰인증
 
-3) 생체 기반
+3) **생체 기반**
 
    e.g. 지문, 얼굴, 홍채 등
 
-4) 위치 기반
+4) **위치 기반**
 
    e.g. GPS, 툥신사 기지국 기반, IP주소(Wi-Fi) 등등
 

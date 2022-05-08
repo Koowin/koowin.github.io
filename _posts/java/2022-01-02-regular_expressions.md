@@ -13,13 +13,10 @@ date: 2022-01-02
 last_modified_at: 2022-01-18
 ---
 
-
-
 # 개요
 
 <details>
 <summary><span style="color:LightSkyBlue">동기 접기/펼치기</span></summary>
-
 [프로그래머스: 신규 아이디 추천 (Lv.1)](https://programmers.co.kr/learn/courses/30/lessons/72410)
 
 위 문제를 해결하고 다른 사람의 풀이를 보니 많은 사람들이 정규식을 사용하여 풀이하였습니다. 정규식의 존재 정도만 알고 있었는데, 문자열 관련 문제를 쉽게 풀기 위해 정규식을 잘 정리하여 활용해보자고 마음먹었습니다.
@@ -58,8 +55,6 @@ temp = temp.replaceAll("[^-_.a-z0-9]","");
 
 자바 도큐먼트와 블로그 등을 참고하여 작성하였으나 부족한 부분이 있는 것 같아 추가로 알고리즘 개정 4판 (로버트 세지웍, 케빈 웨인) 을 공부하여 정리하였습니다.
 
-<br/><br/>
-
 # 연산자
 
  정규 표현식에 사용되는 기초 연산자들입니다.
@@ -69,8 +64,6 @@ temp = temp.replaceAll("[^-_.a-z0-9]","");
 | Concatenation | AB   | 연결 된 문자. A와 B가 연결 된 길이 2인 문자열 한 개의 집합.  |
 | Or            | A\|B | A 또는 B. 집합 {A, B}.                                       |
 | Closure       | A*   | 자기 자신과 임의의 횟수만큼 반복 연결하여 만들어지는 언어. 0을 포함한다. |
-
-<br/>
 
 # 축약어
 
@@ -115,10 +108,6 @@ temp = temp.replaceAll("[^-_.a-z0-9]","");
 | \w     | 알파벳, 언더스코어(_), 숫자 문자: `[a-zA-Z_0-9]`와 동일 |
 | \W     | `[^\w]`와 동일                                          |
 
-<br/>
-
-
-
 # 정규식과 관련된 String methods
 
 |Method|Description|
@@ -128,13 +117,9 @@ temp = temp.replaceAll("[^-_.a-z0-9]","");
 |String.replaceFirst(regex, replacement)|regex와 가장 먼저 일치하는 것을 replacement로 변환|
 |String.replaceAll(regex, replacement)|regex와 일치하는 모든 것을 replacement로 변환|
 
-<br/>
-
 # 관련 코테 문제들
 
 - [프로그래머스: 신규 아이디 추천 (Lv.1)](https://programmers.co.kr/learn/courses/30/lessons/72410)
-
-<br/>
 
 # 참고한 문서들
 

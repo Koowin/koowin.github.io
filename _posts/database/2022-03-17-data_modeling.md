@@ -17,8 +17,6 @@ last_modified_at: 2022-03-17
 
 개념적 모델링(ER Diagram) -> 논리적 모델링(Mapping) -> 물리적 모델링(SQL 정의어)
 
-<br><br>
-
 # ER 모델
 
 Entity Relationship: 사물을 개체와 개체간의 관계로 표현한다.
@@ -58,8 +56,6 @@ Entity Relationship: 사물을 개체와 개체간의 관계로 표현한다.
 * 부모 객체와 자식 객체 같은 것
 * 역 삼각형으로 표현
 * e.g. 학생 -> (휴학생, 재학생, 졸업생)
-
-<br><br>
 
 # 출처
 

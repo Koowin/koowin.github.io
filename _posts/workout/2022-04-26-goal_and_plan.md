@@ -1,5 +1,5 @@
 ---
-title: "Workout Category"
+title: "운동 목표 및 계획"
 
 categories:
   - workout

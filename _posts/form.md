@@ -11,6 +11,9 @@ categories:
 
 date: 2022-
 last_modified_at: 2022-
+sitemap:
+  changefreq: daily
+  priority: 1.0
 ---
 
 # 자주 쓰는 것들

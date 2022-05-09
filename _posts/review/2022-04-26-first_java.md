@@ -1,6 +1,11 @@
 ---
 title: "혼자 공부하는 자바"
 
+toc: true
+toc_label: "Contents"
+toc_icon: "bars"
+toc_sticky: true
+
 categories:
   - review
 

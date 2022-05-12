@@ -1,5 +1,5 @@
 ---
-title:  "스프링 튜토리얼 따라해보기 1"
+title:  "스프링 튜토리얼 따라해보기 1: 시작하기"
 
 toc: true
 toc_label: "Contents"
@@ -22,7 +22,7 @@ spring.io 공식 웹에 접속해보면, 다음과 같이 Learn 탭이 있습니
 
 ![image-20220512103021975](../../assets/images/2022-05-12-spring_tutorial_1/image-20220512103021975.png)
 
-이 페이지에서 Tutorials -> [Building REST services with Spring](https://spring.io/guides/tutorials/rest/) 에 접속하여 튜토리얼을 따라 무작정 만들어보면서 공부해보았습니다.
+이 페이지에서 Tutorials -> [Building REST services with Spring](https://spring.io/guides/tutorials/rest/) 에 접속하여 튜토리얼을 따라 만들어보면서 공부해보았습니다.
 
 
 

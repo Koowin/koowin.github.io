@@ -11,6 +11,9 @@ categories:
 
 date: 2022-01-19
 last_modified_at: 2022-01-20
+sitemap:
+  changefreq: daily
+  priority: 1.0
 ---
 
 # 개요

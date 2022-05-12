@@ -11,7 +11,9 @@ categories:
 
 date: 2022-03-17
 last_modified_at: 2022-03-17
-
+sitemap:
+  changefreq: daily
+  priority: 1.0
 ---
 
 # 트랜잭션

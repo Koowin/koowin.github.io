@@ -9,8 +9,8 @@ toc_sticky: true
 categories:
   - review
 
-date: 2022-05-09
-last_modified_at: 2022-05-09
+date: 2022-05-11
+last_modified_at: 2022-05-11
 sitemap:
   changefreq: daily
   priority: 1.0
@@ -251,6 +251,26 @@ e.g. 이상한 나라의 앨리스에서
 ![image-20220509172922864](../../assets/images/2022-05-09-the_essence_of_object_orientation/image-20220509172922864.png)
 
 # 7장: 함께 모으기
+
+## 세 가지 관점
+
+### 개념 관점(Conceptual Perspective)
+
+사용자가 도메인을 바라보는 관점. 실제 도메인의 규칙과 제약을 최대한 유사하게 반영하는 것이 핵심
+
+
+
+### 명세 관점(Specification Perspective)
+
+사용자의 영역인 도메인을 벗어나 개발자의 영역인 소프트웨어로 초점을 옮겨 바라봄.
+
+객체가 협력을 위해 '무엇'을 할 수 있는가에 초점
+
+
+
+### 구현 관점(Implementation Perspective)
+
+프로그래머가 객체의 책임을 '어떻게' 수행할 것인가에 초점을 맞추며 인터페이스를 구현하는데 필요한 속성과 메서드를 클래스에 추가함
 
 # 출처
 

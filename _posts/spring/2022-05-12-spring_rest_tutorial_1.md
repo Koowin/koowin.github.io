@@ -1,5 +1,5 @@
 ---
-title:  "스프링 튜토리얼 따라해보기 1: 시작하기"
+title:  "스프링 REST 튜토리얼 따라해보기 1: 시작하기"
 
 toc: true
 toc_label: "Contents"

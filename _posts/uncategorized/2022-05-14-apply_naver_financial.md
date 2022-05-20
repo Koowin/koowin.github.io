@@ -7,7 +7,9 @@ toc_icon: "bars"
 toc_sticky: true
 
 categories:
-  - uncategorized
+  - life
+
+published: false
 
 date: 2022-05-14
 last_modified_at: 2022-05-14

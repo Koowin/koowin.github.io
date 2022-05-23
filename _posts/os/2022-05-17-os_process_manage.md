@@ -215,7 +215,7 @@ CPU 이용률과 처리량을 최대화하고,
 
 
 
-### SJF (Shorted-Job-First)
+### SJF (Shortest-Job-First)
 
 후술할 Priority Scheduling(우선 순위 스케줄링) 알고리즘 중 하나이다.
 

@@ -1,6 +1,11 @@
 ---
 title: "프로세스 관리"
 
+toc: true
+toc_label: "Contents"
+toc_icon: "bars"
+toc_sticky: true
+
 categories:
   - os
 
